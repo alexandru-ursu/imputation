@@ -1,0 +1,85 @@
+Proiect DMDW
+Dealing with missing data: Imputation
+Corrupted entries: 100
+Randomizing data loss ...
+Corrupted 100 out of 24489 entries
+------------------------------------------------------
+Mean of clean_data: 1352.5948793335783
+Mean error for clean data: 0.0
+Mean of corrupted_data: 1346.2134019355628
+Mean of hot_deck: 1350.6084772755114
+Mean error of hot_deck: 6.026746702601168
+Mean of cold_deck: 1352.5803013597942
+Mean error of cold_deck: 1.4844624116950467
+Mean of mean_substition: 1351.7097472334517
+Mean error of mean_substition: 6.663399893829883
+Mean of liniar_regression: 1351.5605373841317
+Mean error of liniar_regression: 6.319000367511944
+Proiect DMDW
+Dealing with missing data: Imputation
+Corrupted entries: 1000
+Randomizing data loss ...
+Corrupted 1000 out of 24489 entries
+------------------------------------------------------
+Mean of clean_data: 1352.5948793335783
+Mean error for clean data: 0.0
+Mean of corrupted_data: 1299.820327493977
+Mean of hot_deck: 1358.6301604802156
+Mean error of hot_deck: 66.19731307934174
+Mean of cold_deck: 1354.234635959002
+Mean error of cold_deck: 17.02879313865632
+Mean of mean_substition: 1351.5914900567602
+Mean error of mean_substition: 56.56890848952591
+Mean of liniar_regression: 1351.0001633386419
+Mean error of liniar_regression: 52.814610641512516
+Proiect DMDW
+Dealing with missing data: Imputation
+Corrupted entries: 5000
+Randomizing data loss ...
+Corrupted 5000 out of 24489 entries
+------------------------------------------------------
+Mean of clean_data: 1352.5948793335783
+Mean error for clean data: 0.0
+Mean of corrupted_data: 1095.7897423332925
+Mean of hot_deck: 1359.5427334721712
+Mean error of hot_deck: 305.3399485483278
+Mean of cold_deck: 1349.3591000040835
+Mean error of cold_deck: 83.94700931524758
+Mean of mean_substition: 1297.6285270937972
+Mean error of mean_substition: 253.2891910653763
+Mean of liniar_regression: 1298.9521826126015
+Mean error of liniar_regression: 239.88566295071257
+Proiect DMDW
+Dealing with missing data: Imputation
+Corrupted entries: 10000
+Randomizing data loss ...
+Corrupted 10000 out of 24489 entries
+------------------------------------------------------
+Mean of clean_data: 1352.5948793335783
+Mean error for clean data: 0.0
+Mean of corrupted_data: 902.1352035607824
+Mean of hot_deck: 1359.3011964555515
+Mean error of hot_deck: 546.3312099309894
+Mean of cold_deck: 1353.451876352648
+Mean error of cold_deck: 154.28747189863068
+Mean of mean_substition: 1205.048674915268
+Mean error of mean_substition: 429.92947854138595
+Mean of liniar_regression: 1203.8793335783414
+Mean error of liniar_regression: 409.0919596553555
+Proiect DMDW
+Dealing with missing data: Imputation
+Corrupted entries: 20000
+Randomizing data loss ...
+Corrupted 20000 out of 24489 entries
+------------------------------------------------------
+Mean of clean_data: 1352.5948793335783
+Mean error for clean data: 0.0
+Mean of corrupted_data: 598.0459389930172
+Mean of hot_deck: 1345.0105761770592
+Mean error of hot_deck: 905.4196578055454
+Mean of cold_deck: 1368.5783004614316
+Mean error of cold_deck: 273.94167723979865
+Mean of mean_substition: 931.9775001020867
+Mean error of mean_substition: 682.8418881946997
+Mean of liniar_regression: 931.7580546367757
+Mean error of liniar_regression: 680.2212830250317
