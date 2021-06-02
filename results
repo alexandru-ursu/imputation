@@ -6,15 +6,15 @@ Corrupted 100 out of 24489 entries
 ------------------------------------------------------
 Mean of clean_data: 1352.5948793335783
 Mean error for clean data: 0.0
-Mean of corrupted_data: 1346.2134019355628
-Mean of hot_deck: 1350.6084772755114
-Mean error of hot_deck: 6.026746702601168
-Mean of cold_deck: 1352.5803013597942
-Mean error of cold_deck: 1.4844624116950467
-Mean of mean_substition: 1351.7097472334517
-Mean error of mean_substition: 6.663399893829883
-Mean of liniar_regression: 1351.5605373841317
-Mean error of liniar_regression: 6.319000367511944
+Mean of corrupted_data: 1354.0582229693714
+Mean of hot_deck: 1354.01686471477
+Mean error of hot_deck: 4.175956551921271
+Mean of cold_deck: 1352.610845685818
+Mean error of cold_deck: 0.9866879006901058
+Mean of mean_substition: 1354.057985217853
+Mean error of mean_substition: 4.828208583445629
+Mean of liniar_regression: 1354.4298664706603
+Mean error of liniar_regression: 4.869247417207726
 Proiect DMDW
 Dealing with missing data: Imputation
 Corrupted entries: 1000
@@ -23,15 +23,15 @@ Corrupted 1000 out of 24489 entries
 ------------------------------------------------------
 Mean of clean_data: 1352.5948793335783
 Mean error for clean data: 0.0
-Mean of corrupted_data: 1299.820327493977
-Mean of hot_deck: 1358.6301604802156
-Mean error of hot_deck: 66.19731307934174
-Mean of cold_deck: 1354.234635959002
-Mean error of cold_deck: 17.02879313865632
-Mean of mean_substition: 1351.5914900567602
-Mean error of mean_substition: 56.56890848952591
-Mean of liniar_regression: 1351.0001633386419
-Mean error of liniar_regression: 52.814610641512516
+Mean of corrupted_data: 1352.1297226004085
+Mean of hot_deck: 1351.8642655886317
+Mean error of hot_deck: 65.1769365837723
+Mean of cold_deck: 1351.934414178952
+Mean error of cold_deck: 16.981663739943645
+Mean of mean_substition: 1352.1245048797418
+Mean error of mean_substition: 61.03070766466577
+Mean of liniar_regression: 1351.0821185021846
+Mean error of liniar_regression: 56.99220057985218
 Proiect DMDW
 Dealing with missing data: Imputation
 Corrupted entries: 5000
@@ -40,15 +40,15 @@ Corrupted 5000 out of 24489 entries
 ------------------------------------------------------
 Mean of clean_data: 1352.5948793335783
 Mean error for clean data: 0.0
-Mean of corrupted_data: 1095.7897423332925
-Mean of hot_deck: 1359.5427334721712
-Mean error of hot_deck: 305.3399485483278
-Mean of cold_deck: 1349.3591000040835
-Mean error of cold_deck: 83.94700931524758
-Mean of mean_substition: 1297.6285270937972
-Mean error of mean_substition: 253.2891910653763
-Mean of liniar_regression: 1298.9521826126015
-Mean error of liniar_regression: 239.88566295071257
+Mean of corrupted_data: 1354.7662741167628
+Mean of hot_deck: 1358.9063661235657
+Mean error of hot_deck: 290.51231165012865
+Mean of cold_deck: 1354.7251849127538
+Mean error of cold_deck: 84.7718115320175
+Mean of mean_substition: 1354.6244027930907
+Mean error of mean_substition: 268.83421127853325
+Mean of liniar_regression: 1357.29927722651
+Mean error of liniar_regression: 257.4051206664217
 Proiect DMDW
 Dealing with missing data: Imputation
 Corrupted entries: 10000
@@ -57,15 +57,15 @@ Corrupted 10000 out of 24489 entries
 ------------------------------------------------------
 Mean of clean_data: 1352.5948793335783
 Mean error for clean data: 0.0
-Mean of corrupted_data: 902.1352035607824
-Mean of hot_deck: 1359.3011964555515
-Mean error of hot_deck: 546.3312099309894
-Mean of cold_deck: 1353.451876352648
-Mean error of cold_deck: 154.28747189863068
-Mean of mean_substition: 1205.048674915268
-Mean error of mean_substition: 429.92947854138595
-Mean of liniar_regression: 1203.8793335783414
-Mean error of liniar_regression: 409.0919596553555
+Mean of corrupted_data: 1337.75024600246
+Mean of hot_deck: 1340.2234972231297
+Mean error of hot_deck: 545.2646194054231
+Mean of cold_deck: 1354.2363569472263
+Mean error of cold_deck: 153.20279605935494
+Mean of mean_substition: 1337.498142022949
+Mean error of mean_substition: 502.5796888398873
+Mean of liniar_regression: 1335.8054636775696
+Mean error of liniar_regression: 478.74049573277796
 Proiect DMDW
 Dealing with missing data: Imputation
 Corrupted entries: 20000
@@ -74,12 +74,12 @@ Corrupted 20000 out of 24489 entries
 ------------------------------------------------------
 Mean of clean_data: 1352.5948793335783
 Mean error for clean data: 0.0
-Mean of corrupted_data: 598.0459389930172
-Mean of hot_deck: 1345.0105761770592
-Mean error of hot_deck: 905.4196578055454
-Mean of cold_deck: 1368.5783004614316
-Mean error of cold_deck: 273.94167723979865
-Mean of mean_substition: 931.9775001020867
-Mean error of mean_substition: 682.8418881946997
-Mean of liniar_regression: 931.7580546367757
-Mean error of liniar_regression: 680.2212830250317
+Mean of corrupted_data: 1355.7756065938136
+Mean of hot_deck: 1365.924688584848
+Mean error of hot_deck: 931.329385337962
+Mean of cold_deck: 1364.5011463194955
+Mean error of cold_deck: 267.44907066240893
+Mean of mean_substition: 1355.3419902813507
+Mean error of mean_substition: 828.5699701906979
+Mean of liniar_regression: 1355.8993017273062
+Mean error of liniar_regression: 790.0514516721794

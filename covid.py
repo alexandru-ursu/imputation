@@ -31,13 +31,12 @@ def quantify_date(date):
 
 def calculate_mean(data):
     sum = 0
+    counter = 0
     for entry in data:
         if entry['daily_confirmed_cases'] is not None:
             sum += int(entry['daily_confirmed_cases'])
-        # else:
-        #     print(entry)
-    mean = sum / len(data)
-    # print ("Mean is " + str(mean))
+            counter += 1
+    mean = sum / counter
     return mean
 
 def calculate_date_mean(data):
@@ -103,7 +102,12 @@ def hot_deck(corrupted_data):
             if i == 0 & len(data) > 1:
                 fixed_data[i]['daily_confirmed_cases'] = fixed_data[i + 1]['daily_confirmed_cases']
             elif i > 0:
-                fixed_data[i]['daily_confirmed_cases'] = fixed_data[i - 1]['daily_confirmed_cases']
+                j = i - 1
+                while j >= 0:
+                    if fixed_data[j]['daily_confirmed_cases'] is not None:
+                        fixed_data[i]['daily_confirmed_cases'] = fixed_data[j]['daily_confirmed_cases']
+                        break
+                    j =- 1
     return fixed_data
 
 
@@ -136,8 +140,6 @@ def liniar_regression(corrupted_data):
     fixed_data = copy.deepcopy(corrupted_data)
     cases_mean = calculate_mean(corrupted_data)
     date_mean = calculate_date_mean(corrupted_data)
-    # print (str(cases_mean) + " " + str(date_mean))
-
     N = 0
     marginal_error_sum = 0
     standard_deviation_date_sum = 0
@@ -153,16 +155,15 @@ def liniar_regression(corrupted_data):
             standard_deviation_cases_sum += delta_cases * delta_cases
 
     pearson_coefficient = marginal_error_sum / math.sqrt(standard_deviation_date_sum * standard_deviation_cases_sum)
-    # print ("pearson_coefficient: " + str(pearson_coefficient))
 
     # b = pers * sy/sx
     sy = math.sqrt(standard_deviation_cases_sum / (N - 1))
     sx = math.sqrt(standard_deviation_date_sum / (N - 1))
     b = pearson_coefficient * sy / sx
-    # print("b: " + str(b))
+
     # a = avg_y - avg_x * b
     a = cases_mean - date_mean * b
-    # print("a: " + str(a))
+
     # y = a + bx
     for i in range(len(fixed_data)):
         if fixed_data[i]['daily_confirmed_cases'] is None:
